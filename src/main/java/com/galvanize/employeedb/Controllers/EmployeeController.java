@@ -9,6 +9,10 @@ import java.util.Optional;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
+
+
+@Api(value = "employees", description = "employees") // Swagger annotation
+
 @RequestMapping("/employee")
 public class EmployeeController {
 
